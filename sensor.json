@@ -1,0 +1,76 @@
+{
+    "houses": [
+        {
+            "houseId": 1,
+            "address": "Example Street 10",
+            "sensors": [
+                {
+                    "sensorId": 1001,
+                    "location": "Living Room",
+                    "notes": "Measures room's temperature and humidity",
+                    "timestamp": 1789820400,
+                    "values": {
+                        "temperatureC": 21.4,
+                        "humidityPercent": 43.2
+                    }
+                },
+                {
+                    "sensorId": 1002,
+                    "location": "Kitchen",
+                    "notes": "Monitors room's temperature near the kitchen window",
+                    "timestamp": 1789820460,
+                    "values": {
+                        "temperatureC": 22.1,
+                        "humidityPercent": 46.8
+                    }
+                },
+                {
+                    "sensorId": 1003,
+                    "location": "Bedroom",
+                    "notes": "Measures air quality",
+                    "timestamp": 1789820520,
+                    "values": {
+                        "co2Ppm": 687,
+                        "temperature": 20.8
+                    }
+                }
+            ]
+        },
+        {
+            "houseId": 2,
+            "address": "Example Street 25",
+            "sensors": [
+                {
+                    "sensorId": 2001,
+                    "location": "Living Room",
+                    "notes": "Measures room's temperature and humidity",
+                    "timestamp": 1789820400,
+                    "values": {
+                        "temperatureC": 20.9,
+                        "humidityPercent": 39.7
+                    }
+                },
+                {
+                    "sensorId": 2002,
+                    "location": "Garage",
+                    "notes": "Monitors garage's temperature and humidity",
+                    "timestamp": 1789820460,
+                    "values": {
+                        "temperatureC": 15.6,
+                        "humidityPercent": 51.3
+                    }
+                },
+                {
+                    "sensorId": 2003,
+                    "location": "Bedroom",
+                    "notes": "Measures light level",
+                    "timestamp": 1789820520,
+                    "values": {
+                        "lightLux": 245,
+                        "temperature": 20.2
+                    }
+                }
+            ]
+        }
+    ]
+}
